@@ -9,6 +9,13 @@
 
 #define BUFFER_SIZE 4096
 
+/*
+ *  IMPORTANT:
+ *  This still is a test code, I am doing test to know the best
+ *  way to perform this actions...
+ */
+
+
 int
 server_start(char * hostname, int port)
 {

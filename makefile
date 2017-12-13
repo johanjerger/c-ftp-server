@@ -8,7 +8,7 @@ DEBUG= -g
 CFLAG= -Ofast -Wall -std=gnu11 -pedantic -Werror $(DEBUG)
 
 
-ftp_server = ftp_server
+ftp_server = connection log
 ftp_helpers = usage
 
 
@@ -22,7 +22,7 @@ all: clean folders main.o $(TEMPORAL_FOLDER) $(BUILD_FOLDER)
 
 main.o: ftp.o
 		# MAIN
-		gcc -c $(SOURCE_FOLDER)/ftp_server.c -o $(TEMPORAL_FOLDER)/ftp_server.o $(CFLAG)
+		gcc -c $(SOURCE_FOLDER)/server.c -o $(TEMPORAL_FOLDER)/ftp_server.o $(CFLAG)
 
 
 ftp.o:

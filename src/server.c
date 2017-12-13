@@ -10,7 +10,7 @@
  * The main function configurates the FTP server variables,
  * the basic configuration settings require a hostname and
  * a port to listen, if they don't be provided, then the
- * defaults variables listen in "localhost:8080".
+ * defaults variables listen in "127.0.0.1:8080".
  */
 
 int

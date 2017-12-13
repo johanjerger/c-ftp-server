@@ -11,7 +11,7 @@ print_usage()
                 "\n"
                 "By default:\n"
                 "\n"
-                "\tftp_server -h 'localhost' -p '8080'\n"
+                "\tftp_server -h \"127.0.0.1\" -p 8080\n"
                 "\n"
                 );
 }
